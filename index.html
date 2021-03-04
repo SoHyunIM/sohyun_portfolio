@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>sohyun's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no">
+    <meta name="Title" content="Profile Portfolio">
+    <meta name="Publisher" content="프론트엔드 임소현">
+    <meta name="Author-date" content="2021-01_13">
+    <meta name="Author" content="프론트엔드 임소현">
+    <meta name="Copyright" content="프론트엔드 임소현">
+    <meta name="Keywords" content="Profile Portfolio, Profile, Portfolio, 프로필 포트폴리오">
+    <meta name="Description" content="Profile Portfolio">
+    <meta name="Robots" content="index,follow">
+     
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./img/favicon5.png">
+    <link rel="apple-touch-icon" href="./img/favicon5.png">
+
+    <!-- 오픈 아이콘 -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/response.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- 오픈소스 -->   
+    <script src="./js/lib/jquery-1.12.4.min.js"></script>    
+    <script src="./js/lib/jquery.touchSwipe.js"></script>
+    <script src="./js/lib/prefixfree.min.js"></script>
+    <script src="./js/lib/jquery.easing.1.3.js"></script>
+
+
+    <!-- 조건 주석문 익스프롤러 하위 IE9 IE8 IE7 폴리필 -->
+    <!-- 스크립트 스타일 -->
+    
+    <!--[if lte IE 9]>
+        <script src="./js/lib/IE9.js"></script>
+    <![endif]-->
+    
+    <!--[if lte IE 8]>
+        <script src="./js/lib/html5shiv.min.js"></script>    
+        <script src="./js/lib/jqPIE.js"></script>    
+        <script src="./js/lib/PIE.js"></script> 
+        <link rel="stylesheet" type="text/css" href="./css/ie8.css">   
+    <![endif]-->
+    
+    <!--[if lte IE 7]>    
+       <link rel="stylesheet" type="text/css" href="./css/ie7.css">
+    <![endif]-->    
+    
+
+</head>
+<body id="intro">
+<ul id="skip">
+    <li><a href="#header" title="메뉴바로가기">메뉴바로가기</a></li>
+    <li><a href="#main" title="메인바로가기">메인바로가기</a></li>
+    <li><a href="#footer" title="하단바로가기">하단바로가기</a></li>
+</ul>
+<div id="wrap">
+    <header id="header">
+            <div class="wrap">
+                <div class="gap fixedclear">
+                    <div class="left">
+                        <h1 class="logo"><a href="#intro" class="logo-btn smooth-btn" title="logo">IM SO HYUN</a></h1>
+                    </div>
+                    <div class="right">
+                        <aside id="aside">
+                            <div>
+                                <span><a href="#intro" class="main-btn smooth-btn">Home</a></span>  
+                                <span><a href="#section02" class="main-btn smooth-btn">About</a></span>  
+                                <span><a href="#section05" class="main-btn smooth-btn">Portfolio</a></span>  
+                                <span><a href="#section10" class="main-btn smooth-btn">Work with me</a></span>  
+                            </div>
+                        </aside>
+                        <div class="mobile">
+                            <a href="#" class="mobile-btn">
+                                <i class="mline mline1"></i>
+                                <i class="mline mline2"></i>
+                                <i class="mline mline3"></i>
+                            </a>
+                        </div>
+                        <div class="mobile-menu">
+                            <ul>
+                                <li><a href="#" class="mobile-main-btn smooth-btn">Home</a></li>
+                                <li><a href="#section02" class="mobile-main-btn smooth-btn">About</a></li>
+                                <li><a href="#section05" class="mobile-main-btn smooth-btn">Portfolio</a></li>
+                                <li><a href="#section10" class="mobile-main-btn smooth-btn">Work with me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <main id="main">
+        <section id="section01" class="wheel-event">
+            <h2 class="hide">메인슬라이드</h2>
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+
+                    <div class="cursor"></div>
+
+                        <div class="slide-container">
+                            <div class="slide-view">
+                                <ul class="slide-wrap">
+                                    <li class="slide">
+                                        <div>
+                                            <ul class="con content-main1">
+                                                <li><div><img src="./img/intro-layer-1.png" alt=""></div></li>
+                                                <li><div><img src="./img/intro-layer-2.png" alt=""></div></li>
+                                                <li><div class="color-box"></div></li>
+                                                <li><div><img src="./img/intro-layer-3.png" alt=""></div></li>
+                                                <li><a href="#"><span class="e">Hello, I'm</span><span class="k">안녕하세요</span></a></li>
+                                                <li><a href="#"><span class="e">SoHyun IM </span><span class="k">임소현입니다</span></a></li>
+                                                <li><div><img src="./img/intro-layer-4.png" alt=""></div></li>
+                                                <span class="smooth-btn-wrap"><a href="#section02" class="smooth-btn">View my work</a></span>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section02" class="wheel-event">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <ul class="fixedclear">
+                            <li>
+                                <div>
+                                    <ul class="fixedclear">
+                                        <li class="num-wrap">
+                                            <div class="num-color">
+                                                <div>
+                                                    <span class="top">01</span>
+                                                    <span class="bottom">01</span>
+                                                </div>                                              
+                                            </div>
+                                        </li>
+                                        <li class="text-wrap">
+                                            <div>
+                                                <h2>About</h2>
+                                                <p>안녕하세요! 저는 정적이지 않고 재밌고 색다르게 생기를 불어넣는 것을 좋아합니다 </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section03">
+            <div class="wrap fixedclear">
+                <div class="left-wrap">
+                    <div class="content">
+                        <div class="hexagon">
+                            <div class="shape">
+                                <img src="./img/profile.JPG" alt="profile_img">
+                            </div>
+                        </div>
+                        <p>
+                            <b title="Bold" style="color:rgb(255, 140, 45, 1)">정적이지 않고 다채롭게 표현하는것을 좋아합니다.</b> 비전공자로서 4개월 교육과정을 수료하면서 그동안 제작했던 포트폴리오들을 담았습니다. 
+                            부족한 부분들을 위해 제자리에 있지 않고 계속 공부하고 발전해 나아가는  <b title="Bold" style="color:rgb(255, 140, 45, 1)">웹퍼블리셔</b>가 되도록 노력하겠습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="right-wrap">
+                    <div>
+                        <div class="img-border">
+                            <div class="content-wrap">
+                                <div class="row row-1">
+                                    <h2>Education</h2>
+                                    <p>
+                                        <b title="Bold">2020. 09 ~ 2021.01</b><br> 
+                                        더조은컴퓨터아카데미 UI/UX웹디자인 실무자 양성과정(웹퍼블리서, 프론트엔드)(혼합훈련) 과정 수료<br>
+                                        <b title="Bold">2015. 02</b><br> 
+                                        공주대학교 퍼니처디자인과 졸업
+                                    </p>
+                                </div>
+                                <div class="row row-2">
+                                    <h2>Certification</h2>
+                                    <p>
+                                        <b title="Bold">2012. 09</b><br> 
+                                        MOS Master 2007 취득_PowerPoint, Outlook, Word, Excel<br>
+                                        <b title="Bold">2012. 05</b><br> 
+                                        AutoCAD2급 취득<br>
+                                        <b title="Bold">2012. 05</b><br> 
+                                        GTQ포토샵1급 취득<br>
+                                        <b title="Bold">2011. 10</b><br> 
+                                        2종보통운전면허 취득                                    
+                                    </p>
+                                </div>
+                                <div class="row row-3">
+                                    <h2>Career</h2>
+                                    <p>
+                                        <b title="Bold">2019. 05 ~ 2020. 06</b><br> 
+                                        (주)넥스파시스템 영업지원실 재직<br>
+                                        <b title="Bold">2017. 03 ~ 2019. 03</b><br> 
+                                        (주)대영아이오티 영업지원실 재직<br>
+                                        <b title="Bold">2015. 07 ~ 2017. 03</b><br> 
+                                        (주)에이텍 경영지원실 재직                                                                    
+                                    </p>
+                                </div>
+                                <div class="row row-4">
+                                    <h2>Keywords</h2>
+                                    <p>
+                                        <b title="Bold">#추진력 #책임감 #끈기 #공감 #창의력 #감각 #배움 #노력</b>                                                                   
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section04_01">
+            <div>
+                <ul class="arrow-wrap">
+                    <span class="smooth-btn-wrap"><a href="#section04_02" class="arrow-btn">My Skills</a></span>
+                </ul>
+            </div>
+        </section>
+        <section id="section04_02">
+            <div class="skills-wrap">
+                <h1>My Skills__</h1>
+                <li>
+                    <h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+                </li >
+                <li>
+                    <h3>CSS3</h3><span class="bar"><span class="css3"></span></span>
+                </li >
+                <li>
+                    <h3>JS/JQuery</h3><span class="bar"><span class="js"></span></span>
+                </li >
+                <li>
+                    <h3>Photoshop</h3><span class="bar"><span class="Photoshop"></span></span>
+                </li >
+                <li>
+                    <h3>Illustration</h3><span class="bar"><span class="Illustration"></span></span>
+                </li >
+                <li>
+                    <h3>AutoCAD</h3><span class="bar"><span class="AutoCAD"></span></span>
+                </li >
+                <li>
+                    <h3>MS Office</h3><span class="bar"><span class="mos"></span></span>
+                </li >
+            </div> 
+        </section>
+        <section id="section05">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <ul class="fixedclear">
+                            <li>
+                                <div>
+                                    <ul class="fixedclear">
+                                        <li class="num-wrap">
+                                            <div class="num-color">
+                                                <div>
+                                                    <span class="top">02</span>
+                                                    <span class="bottom">02</span>
+                                                </div>                                              
+                                            </div>
+                                        </li>
+                                        <li class="text-wrap">
+                                            <div>
+                                                <h2>Website UI/UX Design_Portfolio</h2>
+                                                <p>2020년 9월, 새로운 도전을 하면서 생애 처음 만들었던 프로젝트를 시작으로 최근까지의 포트폴리오 입니다</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section06">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <div class="left">
+                            <div class="left-box">
+                                <div class="s6img-box">
+                                    <div>
+                                        <img src="./img/01.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="s6text-box">
+                                    <h2>RESPONSIVE WEBSITE_BRANDO RESTORANT(2020)</h2>
+                                    <p>해외 웹 에이전시 홈페이지</p>
+                                    <div class="btn-box"><a href="https://sohyunim.github.io/BrandoRestaurant/" target="_blank">VIEW MORE</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="r-vid">
+                                <div class="vid-box">
+                                    <video class='sec6Video' autoplay loop muted playsinline poster='./img/sec4_1.jpg'>
+                                        <source src='./video/sec06.mp4'  type='video/mp4'>	
+                                    </video>
+                                </div>
+                                <div class="text-box">
+                                    <h2>PC WEBSITE_STONEHENgE(2020)</h2>
+                                    <p>스톤헨지 주얼리는 ‘Beautiful Moments’라는 슬로건 아래 클래식하고 우아한 브랜드 이미지를 선보입니다.</p>
+                                    <div class="btn-box"><a href="https://sohyunim.github.io/StoneHenge/" target="_blank">VIEW MORE</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section07">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <div class="left s7wrap">
+                            <div class="left-wrap">
+                                <div class="img-wrap">
+                                    <div>
+                                        <a href="https://sohyunim.github.io/ShapeStudio/" target="_blank">
+                                            <video class='sec7Video' autoplay loop muted playsinline poster='./img/sec4_1.jpg'>
+                                                <source src='./video/sec07.mp4'  type='video/mp4'>	
+                                            </video>
+                                        </a>
+                                        <h4>RESPONSIVE WEBSITE_Shape Studio(2021)</h4>
+                                    </div>
+                                </div>
+                                <div class="txt-wrap">
+                                    <div>
+                                        <a href="https://sohyunim.github.io/ShapeStudio/" target="_blank">
+                                            <p>Shape Studio_해외 웹 에이전시 홈페이지</p>
+                                            <em>VIEW MORE</em>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right s7wrap">
+                            <div class="right-wrap">
+                                <div class="r-up-wrap">
+                                    <div class="img-wrap">
+                                        <div>
+                                            <a href="https://sohyunim.github.io/StarBucks/" target="_blank"><img src="./img/portfolio04.JPG" alt=""></a>
+                                            <h4>PC WEBSITE_StarBucks(2020)</h4>
+                                        </div>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <div>
+                                            <a href="https://sohyunim.github.io/StarBucks/" target="_blank">
+                                                <p>StarBucks_커피 전문 브랜드 스타벅스 코리아 홈페이지</p>
+                                                <em>VIEW MORE</em>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="r-down-wrap">
+                                    <div class="img-wrap">
+                                        <div>
+                                            <a href="https://sohyunim.github.io/Architecture/" target="_blank"><img src="./img/portfolio05.JPG" alt=""></a>
+                                            <h4>RESPONSIVE WEBSITE_Architecture(2020)</h4>
+                                        </div>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <div>
+                                            <a href="https://sohyunim.github.io/Architecture/" target="_blank">
+                                                <p>Architecture_해외 웹 에이전시 홈페이지</p>
+                                                <em>VIEW MORE</em>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section08">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <div class="left">
+                            <div class="left-box">
+                                <div class="s8img-box">
+                                    <div>
+                                        <img src="./img/portfolio06.JPG" alt="">
+                                    </div>
+                                </div>
+                                <div class="s8text-box">
+                                    <h2>RESPONSIVE WEBSITE_JasonTravel(2021)</h2>
+                                    <p>Jason Travel Service 전문 여행사 홈페이지</p>
+                                    <div class="btn-box"><a href="https://sohyunim.github.io/JasonTravel/" target="_blank">VIEW MORE</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section09">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <div class="title">
+                            <h2>Website UI/UX Design_Collection @sohyun</h2>
+                        </div>
+                        <div class="content">
+                            <div class="slide-container">
+                                <div class="slide-view">
+                                    <ul class="slide-wrap">
+                                        <li class="slide slide1">
+                                            <div><a href="#section07"><img src="./img/1.jpg" alt=""></a></div>
+                                        </li>
+                                        <li class="slide slide2">
+                                            <div><a href="#section06"><img src="./img/2.jpg" alt=""></a></div>
+                                        </li>
+                                        <li class="slide slide3">
+                                            <div><a href="#section06"><img src="./img/3.jpg" alt=""></a></div>
+                                        </li>
+                                        <li class="slide slide4">
+                                            <div><a href="#section07"><img src="./img/4.jpg" alt=""></a></div>
+                                        </li>
+                                        <li class="slide slide5">
+                                            <div><a href="#section07"><img src="./img/5.jpg" alt=""></a></div>
+                                        </li>
+                                        <li class="slide slide6">
+                                            <div><a href="#section08"><img src="./img/6.jpg" alt=""></a></div>
+                                        </li>
+                                        <li class="slide slide7">
+                                            <div><a href="#intro"><img src="./img/7.jpg" alt=""></a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <span class="next-wrap"><a href="javascript:" class="next-btn"><i></i></a></span>
+                                <span class="prev-wrap"><a href="javascript:" class="prev-btn"><i></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section10">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <ul class="fixedclear">
+                            <li>
+                                <div>
+                                    <ul class="fixedclear">
+                                        <li class="num-wrap">
+                                            <div class="num-color">
+                                                <div>
+                                                    <span class="top">03</span>
+                                                    <span class="bottom">03</span>
+                                                </div>                                              
+                                            </div>
+                                        </li>
+                                        <li class="text-wrap">
+                                            <div>
+                                                <h2>Work with me?</h2>
+                                                <p>함께 일할 센스있고 유능한 웹퍼블리셔를 찾고 계신가요?</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="top">
+            <div class="wrap">
+                <div class="gap">
+                    <ul class="fixedclear">
+                        <li>
+                            <div>
+                                <span><i class="icon-phone"></i></span>
+                                <h6>010-4288-7958</h6>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span><i class="icon-map-pin"></i></span>
+                                <h6>Daejeon, Republic of Korea</h6>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span><i class="icon-envelope"></i></span>
+                                <h6><a href="mailto:thgusclrclr@naver.com">thgusclrclr@naver.com</a></h6>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="wrap">
+                <div class="gap">
+                    <ul class="icons">
+                        <li><a class="face" href="https://www.facebook.com/sohyun.im.5/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a class="git" href="https://github.com/SoHyunIM" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a class="ins" href="https://www.instagram.com/imsooooblee/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="logo-copyright fixedclear">
+                        <span>&copy; 2021 Im So Hyun. All Rights Reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="goTop">
+        <a href="#wrap" class="goTop-btn smooth-btn">
+            <i class="fa fa-thumbs-up"></i>
+        </a>
+    </div>
+
+
+
+    <!-- 사용자 제작     -->
+    <script src="./js/profile portfolio.js"></script>
+
+</div>
+</body>
+</html>
